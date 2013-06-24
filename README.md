@@ -2,9 +2,11 @@
 
 ### Overview
 
-Pointy is my first attempy at a Craft Fieltype, and is a port of [Pointee for ExpressionEngine 2](http://iain.co.nz/software/docs/pointee).
+Pointy is my first attempt at a Craft Fieltype, and is a port of [Pointee for ExpressionEngine 2](http://iain.co.nz/software/docs/pointee).
 
 Pointy records the x and y coordinates of a single click on an image.
+
+![Screenshot of the Pointy Fieldtype](http://cl.ly/image/1C2O1y3Q431V)
 
 #### Installation
 
