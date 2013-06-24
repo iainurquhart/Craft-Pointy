@@ -1,0 +1,26 @@
+<hr />
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.selectField({
+	label: "Image Type"|t,
+	instructions: "Fixed image per entry, or let user upload image per entry?"|t,
+	id: 'imageType',
+	name: 'imageType',
+	options: settings.imageTypes,
+	value: settings.imageType,
+	translatable: true
+}) }}
+
+{{ forms.textField({
+	label: "Fixed image url"|t,
+	instructions: "What is the url to the fixed image."|t,
+	id: 'fixedImageUrl',
+	name: 'fixedImageUrl',
+	value: settings.fixedImageUrl,
+	translatable: true
+}) }}
+
+{% if settings.fixedImageUrl is not null %}
+    <img src="{{ settings.fixedImageUrl }}">
+{% endif %}
