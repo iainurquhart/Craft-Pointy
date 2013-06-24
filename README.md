@@ -6,7 +6,7 @@ Pointy is my first attempt at a Craft Fieltype, and is a port of [Pointee for Ex
 
 Pointy records the x and y coordinates of a single click on an image.
 
-![Screenshot of the Pointy Fieldtype](http://cl.ly/image/1C2O1y3Q431V)
+![Screenshot of the Pointy Fieldtype](http://f.cl.ly/items/1O1H0z2i322F2p3m3P3T/Image%202013.06.25%2012%3A47%3A45%20AM.png)
 
 #### Installation
 
